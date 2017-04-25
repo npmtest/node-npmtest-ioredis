@@ -1,4 +1,7 @@
-# test coverage for  [ioredis (v2.5.0)](https://github.com/luin/ioredis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ioredis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ioredis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ioredis.svg)](https://travis-ci.org/npmtest/node-npmtest-ioredis)
+# npmtest-ioredis
+
+#### basic test coverage for  [ioredis (v2.5.0)](https://github.com/luin/ioredis#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-ioredis.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ioredis) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ioredis.svg)](https://travis-ci.org/npmtest/node-npmtest-ioredis)
+
 #### A delightful, performance-focused Redis client for Node and io.js
 
 [![NPM](https://nodei.co/npm/ioredis.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/ioredis)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ioredis/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ioredis/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ioredis/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ioredis/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ioredis/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ioredis/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ioredis/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ioredis/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ioredis/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ioredis/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ioredis/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ioredis/build/coverage.html/index.html)
 
@@ -108,7 +111,8 @@
         "test": "NODE_ENV=test mocha",
         "test:cov": "NODE_ENV=test node ./node_modules/istanbul/lib/cli.js cover --preserve-comments ./node_modules/mocha/bin/_mocha -- -R spec"
     },
-    "version": "2.5.0"
+    "version": "2.5.0",
+    "bin": {}
 }
 ```
 
